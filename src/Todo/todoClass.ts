@@ -10,7 +10,7 @@ class TodoClass {
     { id: 2, title: "Homework", completed: false },
     { id: 3, title: "Garden", completed: false }
   ] as Array<Todotype>
-  index = 3 as number
+  index = 3
   filter = "ALL" as string | boolean
 
   constructor() {
